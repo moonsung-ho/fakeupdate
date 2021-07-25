@@ -5,6 +5,12 @@
 body {
   background: #0078d7;
 }
+.button{
+  transform: translateX(379%);
+}
+.button:hover{
+  transform: translateX(379%)!important;
+}
 body {
   overflow: hidden;
 }
