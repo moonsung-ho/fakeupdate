@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css" />
     
   </head>
-  <body scroll="no" style="overflow-y: hidden">
+  <body onload="count()" scroll="no" style="overflow-y: hidden">
     <div class="loader">
       <div class="bg"></div>
       <div class="circle"></div>
@@ -18,7 +18,7 @@
       <div class="circle"></div>
       <div class="circle"></div>
     </div>
-    <p>업데이트 작업 중 <span id="per">0%</span><br />PC를 끄지 마세요. 이 작업은 시간이 걸립니다.</p>
+    <p id="per">업데이트 작업 중 0%<br />PC를 끄지 마세요. 이 작업은 시간이 걸립니다.</p>
     <div id="btn">
       <button
         class="button"
@@ -28,6 +28,6 @@
         전체화면
       </button>
     </div>
-    
+    <script src="/index.js"></script>
   </body>
 </html>
