@@ -12,13 +12,14 @@ body {
   overflow: hidden;
 }
 p {
-  color: #fff;
-  margin-top: 0%;
-  padding-top: 0px;
-  font-family: MalgunGothic;
-  text-align: center;
-  transform: translateY(720%);
-  font-size: 22px;
+  font-weight: lighter !important;
+  color: #fff !important;
+  margin-top: 0% !important;
+  padding-top: 0px !important;
+  font-family: 'Malgun Gothic', MalgunGothic, Arial !important;
+  text-align: center !important;
+  transform: translateY(720%) !important;
+  font-size: 23px !important;
 }
 
 body {
