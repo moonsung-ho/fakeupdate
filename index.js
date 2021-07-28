@@ -1,3 +1,15 @@
+setInterval(function () {
+  if( (screen.availHeight || screen.height-20) <= window.innerHeight) {
+    document.getElementById('button').style.display = 'none';
+  } else {
+    document.getElementById('button').style.display = 'inline';
+    document.getElementById('button').style.left = '50%';
+  }
+}, 700);
+if (Document.fullscreenelement === null) {
+  document.getElementById('button').style.display = 'block';
+  document.body.style.cursor = 'pointer';
+}
 function hide() {
   document.getElementById('button').style.display = 'none';
   document.body.style.cursor = 'none';
