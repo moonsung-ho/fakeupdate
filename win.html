@@ -7,7 +7,20 @@
     <title>windows 업데이트</title>
     <link rel="stylesheet" href="win.css" />
     <link rel="stylesheet" href="style.css" />
-    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-D6WN3LX3DM"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-D6WN3LX3DM');
+    </script>
   </head>
   <body onload="count()" scroll="no" style="overflow-y: hidden">
     <div class="loader">
@@ -18,9 +31,13 @@
       <div class="circle"></div>
       <div class="circle"></div>
     </div>
-    <p id="per">업데이트 작업 중&nbsp; 0%<br />PC를 끄지 마세요. 이 작업은 시간이 걸립니다.</p>
+    <p id="per">
+      업데이트 작업 중&nbsp; 0%<br />PC를 끄지 마세요. 이 작업은 시간이
+      걸립니다.
+    </p>
     <div id="btn">
-      <button onload="hide()"
+      <button
+        onload="hide()"
         class="button"
         id="button"
         onclick="document.documentElement.requestFullscreen(), hide()"
